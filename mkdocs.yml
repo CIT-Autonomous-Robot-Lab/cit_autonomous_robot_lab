@@ -79,5 +79,6 @@ markdown_extensions:
 nav:
 
 - Home: index.md
+- Achievement: achievement/achievement.md
 - Menber: member/member.md
 
