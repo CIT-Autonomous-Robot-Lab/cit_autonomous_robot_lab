@@ -79,3 +79,5 @@ markdown_extensions:
 nav:
 
 - Home: index.md
+- Menber: member/member.md
+
