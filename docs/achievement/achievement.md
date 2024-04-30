@@ -29,6 +29,7 @@
     * M1: 池邉、内田
     * B4: 畑中
     * B3: 青木、新井、臼井、庄司、登内、松井、山崎
+    * B2: 藤崎
 
 <center><a href="../../img/tsukuba_challenge_2022.jpg"><img src="../../img/tsukuba_challenge_2022.jpg" alt="" width="500"/></a>
 </center>
@@ -38,7 +39,7 @@
     * M2: 池邉、内田
     * M1: 畑中
     * B4: 青木、新井、臼井、庄司、登内、松井、山崎、吉越
-    * B3: 川原、佐々木、茂、永木、三浦
+    * B3: 川原、佐々木、茂、永木、藤崎、三浦
 
 <center><a href="../../img/tsukuba_challenge_2023.jpg"><img src="../../img/tsukuba_challenge_2023.jpg" alt="" width="500"/></a>
 </center>
