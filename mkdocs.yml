@@ -79,6 +79,6 @@ markdown_extensions:
 nav:
 
 - Home: index.md
+- Research: research/research.md
 - Achievement: achievement/achievement.md
 - Menmer: member/member.md
-
