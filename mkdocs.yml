@@ -45,6 +45,10 @@ theme:
     icon:
       repo: fontawesome/brands/github
 
+    plugins:
+        - search
+        - git-revision-date-localized
+
 extra:
     logo:
         # 利用可能なアイコンは以下を参照
@@ -57,7 +61,7 @@ extra:
         link: https://github.com/CIT-Autonomous-Robot-Lab
 
 extra_css:
-  - css/custom.css
+    - css/custom.css
 
 markdown_extensions:
     - admonition
@@ -77,8 +81,8 @@ markdown_extensions:
     - pymdownx.details
 
 nav:
-
-- Home: index.md
-- Research: research/research.md
-- Achievement: achievement/achievement.md
-- Menmer: member/member.md
+    - Home: index.md
+    - Research: research/research.md
+    - Achievement: achievement/achievement.md
+    - Menmer: member/member.md
+    - Contact: contact/contact.md
