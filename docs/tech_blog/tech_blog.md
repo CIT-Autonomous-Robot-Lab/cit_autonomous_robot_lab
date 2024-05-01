@@ -4,6 +4,8 @@
 
 ```embed
 url: https://lab.ueda.tech/?post=20211205
+image: ../../img/ueda_lab_symbol.png
+favicon: ../../img/ueda_lab_symbol.png
 ```
 
 ## Qiita
