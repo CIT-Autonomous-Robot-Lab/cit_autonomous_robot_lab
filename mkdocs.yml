@@ -65,6 +65,9 @@ extra:
 extra_css:
     - css/custom.css
 
+extra_javascript:
+    - js/custom.js
+
 markdown_extensions:
     - admonition
     - attr_list
@@ -88,5 +91,6 @@ nav:
     - Achievement: achievement/achievement.md
     - Development: development/development.md
     - Tech Blog: tech_blog/tech_blog.md
+    - Tech Movie: tech_movie/tech_movie.md
     - Menmer: member/member.md
     - Contact: contact/contact.md
