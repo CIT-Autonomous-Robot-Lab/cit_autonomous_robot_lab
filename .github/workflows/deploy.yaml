@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/uhobeike/mkdocs-serve:latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: setup mkdocs project
         if: ${{ success() }}
         env:
@@ -25,6 +25,5 @@ jobs:
           git config --local user.name "${GITHUB_ACTOR}"
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git fetch
-          git config --global --add safe.directory /__w/cit_autonomous_robot_lab/cit_autonomous_robot_lab
       - name: deploy
         run: mkdocs gh-deploy --force
