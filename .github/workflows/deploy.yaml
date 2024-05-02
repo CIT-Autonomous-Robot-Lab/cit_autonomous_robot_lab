@@ -7,11 +7,12 @@ on:
     paths-ignore:
       - '**/LICENSE'
       - '**/*.md'
-      
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    container: uhobeike/mkdocs-serve
+    container: ghcr.io/uhobeike/mkdocs-serve:latest
+
     steps:
       - uses: actions/checkout@v2
       - name: setup mkdocs project
