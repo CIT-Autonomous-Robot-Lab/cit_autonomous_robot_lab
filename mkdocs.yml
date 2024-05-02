@@ -11,6 +11,8 @@ copyright: Copyright &copy; 2024 CIT-Autonomous-Robot-Lab
 theme:
     name: material
     language: ja
+    logo: ./img/ueda_lab_symbol.png
+    favicon: ./img/ueda_lab_symbol.png
     # 使用可能色は定義された21色
     #    red, pink, purple, deep purple, indigo, blue, light blue, cyan,
     #    teal,  green, light green, lime, yellow, amber, orange,
@@ -43,6 +45,12 @@ theme:
     icon:
       repo: fontawesome/brands/github
 
+plugins:
+    - search:
+    - git-revision-date-localized:
+        fallback_to_build_date: true
+    - link-embeds:
+
 extra:
     logo:
         # 利用可能なアイコンは以下を参照
@@ -53,6 +61,12 @@ extra:
     social:
       - icon: fontawesome/brands/github
         link: https://github.com/CIT-Autonomous-Robot-Lab
+
+extra_css:
+    - css/custom.css
+
+extra_javascript:
+    - js/custom.js
 
 markdown_extensions:
     - admonition
@@ -72,6 +86,11 @@ markdown_extensions:
     - pymdownx.details
 
 nav:
-
-- Home:
-  - このサイトについて: index.md
+    - Home: index.md
+    - Research: research/research.md
+    - Achievement: achievement/achievement.md
+    - Development: development/development.md
+    - Tech Blog: tech_blog/tech_blog.md
+    - Tech Movie: tech_movie/tech_movie.md
+    - Menmer: member/member.md
+    - Contact: contact/contact.md
