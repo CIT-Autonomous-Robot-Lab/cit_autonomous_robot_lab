@@ -14,5 +14,17 @@ jobs:
     container: ghcr.io/uhobeike/mkdocs-serve:latest
     steps:
       - uses: actions/checkout@v2
+      - name: setup mkdocs project
+        if: ${{ success() }}
+        env:
+          REF: ${{ github.ref }}
+        run: |
+          export VER=`echo "${REF##*/}"`
+          echo "version=${VER}" >> $GITHUB_ENV
+          git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git fetch
+          git config --global --add safe.directory /__w/cit_autonomous_robot_lab/cit_autonomous_robot_lab
       - name: deploy
         run: mkdocs gh-deploy --force
