@@ -976,3 +976,18 @@ a.item-link:hover {
   transform: scale(1.1);
   transition: transform 200ms ease-in-out;
 }
+
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.mkde-embed-container:hover {
+  transform: scale(1.1);
+}
