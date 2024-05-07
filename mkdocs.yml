@@ -1,5 +1,5 @@
 site_name: 上田研 自律移動チーム
-site_url: https://CIT-Autonomous-Robot-Lab.github.io/cit-autonomous-robot-lab/
+site_url: https://CIT-Autonomous-Robot-Lab.github.io/
 site_author: CIT-Autonomous-Robot-Lab
 
 repo_name: CIT-Autonomous-Robot-Lab/cit-autonomous-robot-lab
@@ -83,11 +83,12 @@ markdown_extensions:
     - pymdownx.details
 
 nav:
-    - Home: index.md
+    - Home:
+        - 上田研究室　自律移動チーム: index.md
+        - Tech Blog: tech_blog/tech_blog.md
     - Research: research/research.md
     - Achievement: achievement/achievement.md
     - Development: development/development.md
-    - Tech Blog: tech_blog/tech_blog.md
     - Tech Movie: tech_movie/tech_movie.md
     - Menmer: member/member.md
     - Contact: contact/contact.md
