@@ -16,6 +16,6 @@
 
 | 日付 | 内容 |
 |:---- |:---- |
-| 2024-06-25 | 価値反復の実験動画を掲載 <br>  <iframe width="560" height="315" src="https://www.youtube.com/embed/eiEJMcfNHPQ?si=nTvZrqRrKHcs9m1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> |
+| 2024-06-25 | [Tech Movie](https://cit-autonomous-robot-lab.github.io/tech_movie/tech_movie/)に価値反復の実験動画を掲載 <br>  <iframe width="560" height="315" src="https://www.youtube.com/embed/eiEJMcfNHPQ?si=nTvZrqRrKHcs9m1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> |
 
 
