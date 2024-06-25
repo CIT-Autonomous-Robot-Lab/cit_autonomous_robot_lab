@@ -13,3 +13,9 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dgd2tOCEYno?si=1yzTOaLcFPNXFzz2" class="thumbnail" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ObsD6C73Xr4?si=bVFCWaP8_uYcu_Xx" class="thumbnail" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 実験動画
+
+価値反復
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eiEJMcfNHPQ?si=nTvZrqRrKHcs9m1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
